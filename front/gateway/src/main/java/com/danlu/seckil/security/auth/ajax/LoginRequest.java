@@ -1,4 +1,4 @@
-package com.danlu.seckil.security.ajax;
+package com.danlu.seckil.security.auth.ajax;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
