@@ -2,7 +2,7 @@ package com.danlu.seckil.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * Created by Danlu on 2017/7/17.
@@ -25,10 +25,10 @@ public class Seckil implements Serializable {
 
 
     @Column
-    private LocalDateTime startTime;
+    private Date startTime;
 
     @Column
-    private LocalDateTime endTime;
+    private Date endTime;
 
     @Column
     private int stock;
@@ -65,19 +65,19 @@ public class Seckil implements Serializable {
         this.summary = summary;
     }
 
-    public LocalDateTime getStartTime() {
+    public Date getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(LocalDateTime startTime) {
+    public void setStartTime(Date startTime) {
         this.startTime = startTime;
     }
 
-    public LocalDateTime getEndTime() {
+    public Date getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(LocalDateTime endTime) {
+    public void setEndTime(Date endTime) {
         this.endTime = endTime;
     }
 
