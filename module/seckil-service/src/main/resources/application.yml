@@ -1,9 +1,9 @@
 debug: true
 server:
-  port: 8086
+  port: 8083
 spring:
   application:
-    name: gateway # 项⽬名称尽量⽤⼩写
+    name: seckil-provider # 项⽬名称尽量⽤⼩写
   datasource:
     username: root
     password: 123456
@@ -21,12 +21,6 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     default-property-inclusion: NON_NULL  # always|non_null|non_absent|non_default|non_empty
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
-  security:
-    jwt:
-      tokenExpirationTime: 1 # Number of minutes
-      refreshTokenExpTime: 60 # Minutes
-      tokenIssuer: http://danlu.com
-      tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
 logging:
   level:
     root: INFO

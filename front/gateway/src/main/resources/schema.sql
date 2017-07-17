@@ -1,5 +1,5 @@
 Create Database If Not Exists seckil Character Set UTF8;
-USE seckill;
+USE seckil;
 
 DROP TABLE IF EXISTS `user`;
 DROP TABLE IF EXISTS `authority`;
